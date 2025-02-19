@@ -46,12 +46,16 @@ MVC 패턴 기반 컨트롤러
 
 게시판 기능 지원
 
+메일 발송 기능 지원
+
+1:N 채팅 기능 지원
+
 AJAX 및 JavaScript 활용한 동적 웹 페이지
 
 🛠 기술 스택
 
-Backend: Java, Spring (또는 해당하는 프레임워크 기재)
+Backend: Java, Spring,WEB SORCKT,ChromeDriver
 
 Frontend: HTML, CSS, JavaScript, AJAX
 
-Database: MySQL (또는 사용 중인 DB 기재)
+Database: MySQL
