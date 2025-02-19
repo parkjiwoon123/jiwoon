@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* 공통설정 */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.myHeader .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    text-align:center;
+    background-color:rgba(200,200,200);
+    padding: 0 20px;
+}
+
+.myHeader .navbar_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myHeader .navbar_menu, .myHeader .navbar_icon {
+    display: flex;
+    align-items: center;
+}
+
+.myHeader .navbar_menu > li, .myHeader .navbar_icon > li {
+    display:inline-block;
+    width:100px;
+    text-align: center;
+    color:white;
+    font-size:15px;
+}
+
+.myHeader .navbar_logo i {
+    display: block;
+    line-height: 1; /* Reset line-height */
+    vertical-align: middle; /* Align middle */
+}
+
+/* main.jsp main영역 */
+main{
+    width:100%;
+    min-height:500px;
+}
+
+/* footer.jsp footer영역 */

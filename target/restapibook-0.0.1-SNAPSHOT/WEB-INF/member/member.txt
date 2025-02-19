@@ -1,0 +1,23 @@
+create table member(
+id verchar2(12) primary key,
+password varchar2(12) not null,
+mail varchar2(20) not null,
+name varchar2(30) not null
+);
+
+String id;
+String password;
+String mail;
+String name;
+
+vd -> dao 생성
+
+dao 생성시 필요한 함수
+
+입력 : id,password,mail,name
+
+선택 출력 : id
+
+수정 : password,mail, name을 변경하고 id는 변경불가
+
+삭제 : -> 회원탈퇴

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* 전체페이지 크기 정하기 */
+/* header.jsp header영역 */
+*{margin:0;padding:0}
+nav > ul{
+	background-color:rgba(200,200,200);
+	text-align:center;
+}
+nav > ul > li{
+	display:inline-block;
+	width:100px;
+	/* border:1px solid red; */
+	text-align: center;
+	padding: 8px 12px;
+	color:white;
+	font-size:15px;
+}
+/* main.jsp main영역 */
+main{
+	width:100%;
+	height:500px;
+	background-color:orange;
+	
+}
+
+/* footer.jsp footer영역 */
+footer{
+	width:100%;
+	height:100px;
+	background-color:fuchsia;
+}
+/* 공통설정 */
+*{
+     margin:0;
+     padding:0;
+}
+
+.navbar_logo{
+	display:inline-block;
+	float:left;
+}
+
+.navbar_menu{
+	display:inline-block;
+}
+.navbar_menu> li{
+	display:inline-block;
+}
+
+.navbar_icon{
+	display:inline-block;
+	float:right;
+}
+.navbar_icon> li{
+	display:inline-block;
+}
+.navbar{
+	text-align:center;
+}
+/* header.jsp header영역 */
+/* main.jsp main영역 */
+/* footer.jsp footer영역 */
+
+/* header.jsp header영역 -nav*/
+
+
+/* main.jsp main영역 */
+/* footer.jsp footer영역 */

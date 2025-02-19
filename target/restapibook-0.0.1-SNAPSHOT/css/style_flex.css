@@ -1,0 +1,132 @@
+@charset "UTF-8";
+		ul{
+    	list-style-type: none;
+    	}
+        *{
+            /* border:1px solid red; */
+            margin:0;
+            padding:0;
+        }
+        .navbar{
+            display: flex;
+            background-color: #263343;
+            color: white;
+            justify-content: space-between;
+            /* position: fixed; */
+        }
+        .navbar_menu, .navbar_icon{
+            list-style: none;
+            display: flex;
+        }
+        .navbar_menu > li{
+            padding: 8px 12px;
+            /* width: 100px;
+            text-align: center; */
+        }
+        .navbar_icon > li{
+            padding: 8px 10px;
+        }
+        .navbar_logo > i {
+            font-size: 40px;
+            color:orange;
+        }
+        .navbar_menu > li:hover{
+            background-color:burlywood ;
+            border-radius: 10px;
+        }
+        
+        main{
+            width: 100%;
+            height: 1200px;
+            
+        }
+        /* 최소크기가 600px이상일 때 실행 */
+        @media screen and (min-width:600px){
+            main{
+                background-color: aqua;
+            }    
+            .navbar_toogleBtn{
+                /* visibility: hidden; */
+                display: none;
+            }
+            .navbar_icon{
+                visibility: visible;
+            }
+        }
+        /* 최대크기가 580px이하일 때 실행 */
+        @media screen and (max-width:600px){
+            main{
+                background-color: beige;
+            }    
+            .navbar_toogleBtn{
+                /* visibility: visible; */
+                display:block;
+            }
+            .navbar_icon{
+                visibility: hidden;
+            }
+        }
+        .navbar_toogleBtn{
+            position: absolute;
+            top:8px;
+            right:32px;
+        }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* you can adjust this value */
+    text-align:center;
+    background-color:rgba(200,200,200);
+    padding: 0 20px; /* adjust padding if necessary */
+}
+
+
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        
+       aside{
+        width: 25%;
+        height: 1200px;
+        background-color: beige;
+       }
+       main{
+        height: 1200px;
+        background-color: bisque;
+        /* padding-top: 50px; */
+       }
+       #middle{
+        display:flex ;
+       }
+       footer{
+        width:100%;
+        height: 150px;
+        background-color: antiquewhite;
+       }
+
+       footer p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        word-spacing: 5px;
+        font-size: 17px;
+       }
+
+       footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       
+       aside > ul{
+            list-style: none;
+        }
+
+        aside > ul > li:nth-child(1){
+        font-size:20px;
+        font-weight: bold;
+       }
+       aside > li{
+        margin-top: 10%;
+       } 
